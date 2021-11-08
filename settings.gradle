@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 rootProject.name = "MyCourseHomeWorks"
 include ':app'
 include ':p063'
+include ':p070'

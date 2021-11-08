@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">PeakyBlinders</string>
+    <string name="description">Peaky Blinders is an epic following of a
+        gangster family of Irish-Roman origin set in Birmingham, England,
+        in 1919, several months after the end of the First World War in November 1918.
+        The story centres on the Peaky Blinders gang and their ambitious and highly
+        cunning boss Shelby</string>
+    <string name="Cost">Rent from R15.99</string>
+    <string name="cost2">Buy from R59.99</string>
+    <string name="banner">banner</string>
+    <string name="TomasShelby">Thomas Shelby</string>
+    <string name="background">background</string>
+    <string name="icon">icon</string>
+    <string name="_4_9">4.9</string>
+    <string name="TextPeaky">Peaky Blinders</string>
+    <string name="DateFilm">March 2013 PG 76 minutes</string>
+    <string name="button">button</string>
+    <string name="icon">icon</string>
+    <string name="icon">icon</string>
+    <string name="icon">icon</string>
+    <string name="icon">icon</string>
+    <string name="icon">icon</string>
+    <string name="icon">icon</string>
 </resources>

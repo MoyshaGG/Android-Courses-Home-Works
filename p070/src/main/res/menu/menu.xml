@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<group android:id="@+id/birdsGroup">
+    <item
+        android:id="@+id/menu_birds"
+        android:title="Птички">
+        <menu>
+            <item
+                android:id="@+id/menu_bird1"
+                android:title="Воробей">
+            </item>
+            <item
+                android:id="@+id/menu_bird2"
+                android:title="Орёл">
+            </item>
+            <item
+                android:id="@+id/menu_bird3"
+                android:title="Утка">
+            </item>
+        </menu>
+    </item>
+    </group>
+    <group android:id="@+id/animalGroup">
+    <item
+        android:id="@+id/animals"
+        android:title="Животные">
+        <menu>
+            <item
+                android:id="@+id/menu_animal1"
+                android:title="Медведь">
+            </item>
+            <item
+                android:id="@+id/menu_animal2"
+                android:title="Олень">
+            </item>
+            <item
+                android:id="@+id/menu_animal3"
+                android:title="Волк">
+            </item>
+        </menu>
+    </item>
+</group>
+</menu>
+

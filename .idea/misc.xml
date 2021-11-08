@@ -3,14 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p063/p070/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p063/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.2703125" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p063/src/main/res/drawable/ic_baseline_notifications_active_24.xml" value="0.2703125" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p063/src/main/res/drawable/ic_baseline_pending_24.xml" value="0.2703125" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p063/src/main/res/drawable/ic_baseline_people_24.xml" value="0.24791666666666667" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p063/src/main/res/drawable/ic_launcher_background.xml" value="0.2546875" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p063/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2546875" />
-        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p063/src/main/res/layout/activity_home_work.xml" value="0.4" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p063/src/main/res/layout/activity_home_work.xml" value="0.264" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p063/src/main/res/layout/activity_home_work_two.xml" value="0.4" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p070/src/main/res/layout/activity_main_activitys.xml" value="0.4" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p070/src/main/res/menu/menanimal.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p070/src/main/res/menu/menu.xml" value="0.264" />
       </map>
     </option>
   </component>
