@@ -7,6 +7,7 @@
     tools:context=".MainActivitys">
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="215dp"
         android:layout_height="194dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -15,7 +16,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/animalButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="85dp"
@@ -25,14 +26,33 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/birdButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="85dp"
             android:layout_marginTop="10dp"
-            android:text="Растения"
+            android:text="Птички"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+            app:layout_constraintTop_toBottomOf="@+id/animalButton" />
     </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="219dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
