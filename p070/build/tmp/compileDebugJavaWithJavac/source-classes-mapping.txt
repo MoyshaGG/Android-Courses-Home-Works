@@ -1,0 +1,2 @@
+com/mysliukserhii/p070/BuildConfig.java
+ com.mysliukserhii.p070.BuildConfig
