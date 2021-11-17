@@ -10,3 +10,5 @@ rootProject.name = "MyCourseHomeWorks"
 include ':app'
 include ':p063'
 include ':p070'
+include ':p080'
+include ':081'
