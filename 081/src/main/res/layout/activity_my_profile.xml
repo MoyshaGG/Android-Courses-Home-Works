@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:scrollbarSize="4dp"
     tools:context=".MyProfile">
 
@@ -22,23 +22,48 @@
 
     <ImageButton
         android:id="@+id/galleryButton"
-        android:layout_width="56dp"
-        android:layout_height="52dp"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginBottom="-14dp"
         app:layout_constraintBottom_toBottomOf="@+id/batman"
         app:layout_constraintEnd_toEndOf="@+id/batman"
-        app:srcCompat="@drawable/ic_baseline_border_color_24" />
+        app:srcCompat="@drawable/ic_baseline_border_color_24"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/userProfileText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="170dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="170dp"
         android:text="User Profile"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/batman" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="20dp"
+        android:background="#D6D5D5"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userProfileText">
+
+        <TextView
+            android:id="@+id/nameButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
