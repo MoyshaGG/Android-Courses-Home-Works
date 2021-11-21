@@ -1,6 +1,5 @@
 package com.mysliukserhii.a081
 
-import android.annotation.SuppressLint
 import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.graphics.Bitmap
@@ -14,7 +13,7 @@ class MyProfile : AppCompatActivity() {
     private val REQUEST_IMAGE_CAPTURE = 1
     private val REQUEST_SELECT_IMAGE_IN_ALBUM = 2
     private val REQUEST_CHANGE_NAME = 3
-    private val REQUEST_CHANGE_COUNTRY = 4
+    private val REQUEST_CHANGE_COUNTRIES = 4
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,7 +47,7 @@ class MyProfile : AppCompatActivity() {
 
     private fun intentButtonCountry() {
         val intent = Intent(this,Country::class.java)
-        startActivityForResult(intent, REQUEST_CHANGE_COUNTRY)
+        startActivityForResult(intent, REQUEST_CHANGE_COUNTRIES)
     }
 
 
@@ -96,7 +95,7 @@ class MyProfile : AppCompatActivity() {
             }
 
         }
-        if (requestCode == REQUEST_CHANGE_COUNTRY) {
+        if (requestCode == REQUEST_CHANGE_COUNTRIES) {
             if (data?.getStringExtra("result") != null) {
                 val countryButton = findViewById<TextView>(R.id.countryButton)
                 val countryFlag = findViewById<ImageView>(R.id.country)
