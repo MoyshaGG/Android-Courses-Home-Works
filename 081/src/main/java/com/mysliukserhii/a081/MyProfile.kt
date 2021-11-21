@@ -1,23 +1,29 @@
 package com.mysliukserhii.a081
 
+import android.annotation.SuppressLint
 import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.graphics.Bitmap
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
-import android.view.Menu
-import android.view.MenuItem
-import android.view.View
 import android.widget.*
 import de.hdodenhof.circleimageview.CircleImageView
 
 class MyProfile : AppCompatActivity() {
+    private val REQUEST_IMAGE_CAPTURE = 1
+    private val REQUEST_SELECT_IMAGE_IN_ALBUM = 2
+    private val REQUEST_CHANGE_NAME = 3
+    private val REQUEST_CHANGE_COUNTRY = 4
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_my_profile)
         val nameButton = findViewById<TextView>(R.id.nameButton)
-        nameButton.setOnClickListener{intentButtonText(nameButton)}
+        val nameLayout = findViewById<LinearLayout>(R.id.nameLayout)
+        nameLayout.setOnClickListener { intentButtonName(nameButton) }
+        val countryLayout = findViewById<LinearLayout>(R.id.linearCountry)
+        countryLayout.setOnClickListener { intentButtonCountry() }
 
         val galleryButton = findViewById<ImageButton>(R.id.galleryButton)
         galleryButton.setOnClickListener {
@@ -33,17 +39,21 @@ class MyProfile : AppCompatActivity() {
             popupmenu.show()
         }
     }
-    fun intentButtonText(textView: TextView)
-    {
-        val intent = Intent(this,Name::class.java)
-        intent.putExtra("nameText",textView.text.toString())
-        startActivityForResult(intent,3)
+
+    private fun intentButtonName(textView: TextView) {
+        val intent = Intent(this, Name::class.java)
+        intent.putExtra("nameText", textView.text.toString())
+        startActivityForResult(intent, REQUEST_CHANGE_NAME)
+    }
+
+    private fun intentButtonCountry() {
+        val intent = Intent(this,Country::class.java)
+        startActivityForResult(intent, REQUEST_CHANGE_COUNTRY)
     }
 
 
-    val REQUEST_SELECT_IMAGE_IN_ALBUM = 2
 
-    fun selectImageInAlbum() {
+    private fun selectImageInAlbum() {
         val intent = Intent(Intent.ACTION_GET_CONTENT)
         intent.type = "image/*"
         if (intent.resolveActivity(packageManager) != null) {
@@ -51,7 +61,6 @@ class MyProfile : AppCompatActivity() {
         }
     }
 
-    val REQUEST_IMAGE_CAPTURE = 1
 
     private fun dispatchTakePictureIntent() {
 
@@ -79,11 +88,36 @@ class MyProfile : AppCompatActivity() {
             val imageBitmap = data?.data
             photoView.setImageURI(imageBitmap)
         }
-            if(requestCode == 3)
+        if (requestCode == REQUEST_CHANGE_NAME) {
+            if(data?.getStringExtra("result") != null)
             {
                 val nameButton = findViewById<TextView>(R.id.nameButton)
-                nameButton.setText(data?.getStringExtra("result").toString())
+                nameButton.text = data?.getStringExtra("result").toString()
             }
+
+        }
+        if (requestCode == REQUEST_CHANGE_COUNTRY) {
+            if (data?.getStringExtra("result") != null) {
+                val countryButton = findViewById<TextView>(R.id.countryButton)
+                val countryFlag = findViewById<ImageView>(R.id.country)
+                countryButton.text = data?.getStringExtra("result").toString()
+
+                if (countryButton.text == "Germany") {
+                    countryFlag.setImageResource(R.drawable.germany)
+                }
+                if (countryButton.text == "Poland") {
+                    countryFlag.setImageResource(R.drawable.poland)
+                }
+                if (countryButton.text == "Britain") {
+                    countryFlag.setImageResource(R.drawable.britain)
+                }
+                if (countryButton.text == "France") {
+                    countryFlag.setImageResource(R.drawable.france)
+                }
+            }
+
+        }
+
     }
-    
+
 }

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyCourseHomeWorks">
         <activity
+            android:name=".Country"
+            android:exported="true" />
+        <activity
             android:name=".Name"
             android:exported="true" />
         <activity

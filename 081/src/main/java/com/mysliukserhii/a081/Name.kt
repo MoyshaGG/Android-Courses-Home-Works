@@ -15,11 +15,10 @@ class Name : AppCompatActivity() {
         val buttonSave = findViewById<Button>(R.id.saveButton)
         val arguments = intent.extras
         editName.setText(arguments?.getString("nameText")!!.toString())
-        buttonSave.setOnClickListener{saveButton(editName)}
+        buttonSave.setOnClickListener { saveButton(editName) }
     }
 
-    private fun saveButton(editName:EditText)
-    {
+    private fun saveButton(editName: EditText) {
         val returnIntent = Intent()
         returnIntent.putExtra("result", editName.text.toString())
         setResult(RESULT_OK, returnIntent)
