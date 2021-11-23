@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -19,9 +20,17 @@ class Name : AppCompatActivity() {
     }
 
     private fun saveButton(editName: EditText) {
-        val returnIntent = Intent()
-        returnIntent.putExtra("result", editName.text.toString())
-        setResult(RESULT_OK, returnIntent)
-        finish()
+        if (editName.text.toString() != "") {
+            val returnIntent = Intent()
+            returnIntent.putExtra("result", editName.text.toString())
+            setResult(RESULT_OK, returnIntent)
+            finish()
+        }
+        else {
+            Toast.makeText(
+                this, "name should be not empty",
+                Toast.LENGTH_SHORT
+            ).show()
+        }
     }
 }
