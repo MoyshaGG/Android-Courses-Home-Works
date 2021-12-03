@@ -17,9 +17,7 @@ import android.widget.TextView
 
 class MyProfile : AppCompatActivity() {
     private val REQUEST_IMAGE_CAPTURE = 1
-    private val REQUEST_SELECT_IMAGE_IN_ALBUM = 2
-    private val REQUEST_CHANGE_NAME = 3
-    private val REQUEST_CHANGE_COUNTRIES = 4
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -117,7 +115,7 @@ class MyProfile : AppCompatActivity() {
             val imageBitmap = data?.getParcelableExtra<Bitmap>("data")
             photoView.setImageBitmap(imageBitmap)
         }
-g
+
   }
 
 }

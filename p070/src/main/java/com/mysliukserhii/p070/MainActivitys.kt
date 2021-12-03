@@ -3,7 +3,6 @@ package com.mysliukserhii.p070
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
-import android.view.MenuInflater
 import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.RadioButton
@@ -12,7 +11,7 @@ import android.widget.TextView
 class MainActivitys : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_activitys)
+        setContentView(R.layout.activity_main)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
