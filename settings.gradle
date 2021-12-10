@@ -9,3 +9,11 @@ dependencyResolutionManagement {
 rootProject.name = "MyCourseHomeWorks"
 include ':app'
 include ':p063'
+include ':p070'
+include ':p080'
+include ':081'
+include ':p091'
+include ':p101'
+include ':p102'
+include ':p103'
+include ':p104'

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/animals"
+        android:title="Животные">
+        <menu>
+            <item
+                android:id="@+id/menu_animal1"
+                android:title="Медведь">
+            </item>
+            <item
+                android:id="@+id/menu_animal2"
+                android:title="Олень">
+            </item>
+            <item
+                android:id="@+id/menu_animal3"
+                android:title="Волк">
+            </item>
+        </menu>
+    </item>
+</menu>
