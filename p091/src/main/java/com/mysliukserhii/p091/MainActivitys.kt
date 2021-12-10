@@ -28,9 +28,8 @@ class MainActivitys : AppCompatActivity() {
             return super.onOptionsItemSelected(item)
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        val inflater: MenuInflater = menuInflater
-        inflater.inflate(R.menu.menu, menu)
-        return true
+        menuInflater.inflate(R.menu.menu, menu)
+        return super.onCreateOptionsMenu(menu)
     }
     override fun onPrepareOptionsMenu(menu: Menu?): Boolean {
         var animals = findViewById<RadioButton>(R.id.animalButton)
