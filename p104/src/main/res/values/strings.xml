@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P104</string>
+    <string name="witcher">Ведьмак 3: Дикая Охота</string>
+    <string name="date">Дата выхода:</string>
+    <string name="dateOut">18 МАЯ 2015</string>
+    <string name="out">В корзину</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Country">
+
+    <LinearLayout
+        android:id="@+id/France"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="20dp"
+        android:background="#D6D5D5"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding = "10dp">
+
+        <TextView
+            android:id="@+id/FranceText"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="France"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#D6D5D5"
+            android:cropToPadding="false"
+            android:scaleType="fitEnd"
+            android:scrollbarSize="4dp"
+            android:src="@drawable/france"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/England"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#D6D5D5"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding = "10dp">
+
+        <TextView
+            android:id="@+id/BritainText"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Britain"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:cropToPadding="false"
+            android:scaleType="fitEnd"
+            android:scrollbarSize="4dp"
+            android:src="@drawable/britain" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Poland"
+        android:padding = "10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#D6D5D5"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/PolandText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Poland"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:cropToPadding="false"
+            android:scaleType="fitEnd"
+            android:scrollbarSize="4dp"
+            android:src="@drawable/poland" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Germany"
+        android:padding = "10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#D6D5D5"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/GermanyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Germany"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:cropToPadding="false"
+            android:scaleType="fitEnd"
+            android:scrollbarSize="4dp"
+            android:src="@drawable/germany" />
+    </LinearLayout>
+</LinearLayout>
