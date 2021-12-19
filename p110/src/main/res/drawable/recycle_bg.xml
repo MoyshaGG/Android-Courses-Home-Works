@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+        <gradient
+            android:startColor="#31333D"
 
-    background: linear-gradient(360deg, #31333D 10.45%, #24252A 100%);
-</selector>
+            android:endColor="#24252A"
+            android:angle="360"/>
+        <corners
+            android:radius="0dp"/>
+
+    </shape>

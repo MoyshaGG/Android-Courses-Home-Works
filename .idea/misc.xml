@@ -33,10 +33,25 @@
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p102/src/main/res/layout/item_recept.xml" value="0.264" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p103/src/main/res/layout/activity_vkmemes.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p103/src/main/res/layout/item_vkmem.xml" value="0.264" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p104/src/main/res/drawable/gradient.xml" value="0.2265625" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p104/src/main/res/drawable/ic_dollar.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p104/src/main/res/drawable/ic_launcher_background.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p104/src/main/res/layout/activity_game.xml" value="0.3475238922675934" />
-        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p104/src/main/res/layout/item_game.xml" value="0.4" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p104/src/main/res/layout/item_game.xml" value="0.536" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/bg.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic__.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic_night_24px.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic_night_big.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic_partly34.xml" value="0.153125" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic_partly_big.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic_partly_cloudy.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic_rain_big.xml" value="0.1" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic_sunny_24px.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic_sunny_big.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/recycle_bg.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/recyclebg.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/layout/item_weather.xml" value="0.264" />
       </map>
     </option>
   </component>

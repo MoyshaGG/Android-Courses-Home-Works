@@ -23,6 +23,7 @@ class MainActivitys : AppCompatActivity() {
             image?.setImageResource(it.picture)
         }
     }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         viewModel.loadNatureData(item.itemId)
             return super.onOptionsItemSelected(item)
