@@ -16,12 +16,15 @@
             <option value="$PROJECT_DIR$/p070" />
             <option value="$PROJECT_DIR$/p080" />
             <option value="$PROJECT_DIR$/p091" />
+            <option value="$PROJECT_DIR$/p091/p111" />
             <option value="$PROJECT_DIR$/p101" />
             <option value="$PROJECT_DIR$/p102" />
             <option value="$PROJECT_DIR$/p103" />
             <option value="$PROJECT_DIR$/p104" />
             <option value="$PROJECT_DIR$/p105" />
             <option value="$PROJECT_DIR$/p110" />
+            <option value="$PROJECT_DIR$/p111" />
+            <option value="$PROJECT_DIR$/p111_20" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

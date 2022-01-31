@@ -24,6 +24,7 @@
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p070/src/main/res/menu/menanimal.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p070/src/main/res/menu/menu.xml" value="0.264" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p080/src/main/res/layout/activity_start.xml" value="0.264" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p091/p111/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p091/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p091/src/main/res/menu/menanimal.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p091/src/main/res/menu/menu.xml" value="0.23854166666666668" />
@@ -46,12 +47,28 @@
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic_partly_big.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic_partly_cloudy.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic_rain_big.xml" value="0.1" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic_rain_sun_big.xml" value="0.2078125" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic_sunny34.xml" value="0.2078125" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic_sunny_24px.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/ic_sunny_big.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/recycle_bg.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/recyclebg.xml" value="0.22864583333333333" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/layout/item_weather.xml" value="0.264" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p111/src/main/res/drawable/ic_access_time.xml" value="0.2703125" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p111/src/main/res/drawable/ic_splash_screen.xml" value="0.2703125" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p111/src/main/res/drawable/stick.xml" value="0.2703125" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p111/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p111/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p111/src/main/res/layout/fragment_details_recommendations.xml" value="0.4" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p111/src/main/res/layout/fragment_fullscreen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p111/src/main/res/layout/fragment_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p111/src/main/res/layout/item_coward.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p111/src/main/res/layout/item_earthquake.xml" value="0.4" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p111_20/src/main/res/drawable/ic_hide.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p111_20/src/main/res/drawable/ic_icon_park_waves.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p111_20/src/main/res/layout/activity_main.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p111_20/src/main/res/layout/item_earthquake.xml" value="0.4" />
       </map>
     </option>
   </component>
@@ -60,5 +77,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
   </component>
 </project>

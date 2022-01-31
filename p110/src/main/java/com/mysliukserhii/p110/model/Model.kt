@@ -1,9 +1,10 @@
 package com.mysliukserhii.p110.model
+
 import com.google.gson.annotations.SerializedName
 
 
-data class DailyDto(
-    @SerializedName("data") var data: List<DataDto> = arrayListOf(),
+data class WeatherDailyDto(
+    @SerializedName("data") var data: List<WeatherDataDto> = arrayListOf(),
     @SerializedName("city_name") var cityName: String? = null,
     @SerializedName("lon") var lon: Double? = null,
     @SerializedName("timezone") var timezone: String? = null,
@@ -20,7 +21,7 @@ data class WeatherDto(
 
 )
 
-data class DataDto(
+data class WeatherDataDto(
 
     @SerializedName("wind_cdir")
     var windCdir: String? = null,

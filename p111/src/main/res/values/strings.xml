@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">P111</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="scarcely_parceptible">Ледь відчутний</string>
+    <string name="weak">Слабкий</string>
+    <string name="average">Середній</string>
+    <string name="strong">Сильний</string>
+    <string name="very_strong">Дуже сильний</string>
+</resources>
