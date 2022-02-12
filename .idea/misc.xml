@@ -52,6 +52,24 @@
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/drawable/recyclebg.xml" value="0.22864583333333333" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p110/src/main/res/layout/item_weather.xml" value="0.264" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/drawable/ic_about.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/drawable/ic_general.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/drawable/ic_home.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/drawable/ic_quake.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/drawable/launch_icon_background.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/drawable/launch_icon_foreground.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/drawable/side_nav_bar.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/layout/activity_item.xml" value="0.1796875" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/layout/app_bar_main.xml" value="0.6" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/layout/content_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/layout/fragment_about.xml" value="0.1796875" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/layout/fragment_detailed.xml" value="0.1796875" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/layout/fragment_general.xml" value="0.1796875" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/layout/fragment_home.xml" value="0.165625" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/layout/nav_header_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/menu/activity_main_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/cobra/AndroidStudioProjects/MyCourseHomeWorks/p1112/src/main/res/menu/main.xml" value="0.1796875" />
       </map>
     </option>
   </component>

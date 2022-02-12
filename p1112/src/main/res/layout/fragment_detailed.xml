@@ -1,14 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.detailed.DetailedFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/dlocationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/location_example"
+        android:textColor="#2B2B3D"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dimageView3"
+        app:layout_constraintStart_toEndOf="@+id/dimageView3"
+        app:layout_constraintTop_toTopOf="@+id/dimageView3" />
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/dimageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_time"
+        android:contentDescription="@string/icon_photo" />
+
+    <ImageView
+        android:id="@+id/dimageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dimageView2"
+        app:srcCompat="@drawable/ic_location"
+        android:contentDescription="@string/icon_photo" />
+
+    <ImageView
+        android:id="@+id/dimageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/dtextView6"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView6"
+        app:srcCompat="@drawable/ic_quake"
+        android:contentDescription="@string/icon_photo" />
+
+    <TextView
+        android:id="@+id/dtimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/date_example"
+        android:textColor="#2B2B3D"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dimageView2"
+        app:layout_constraintStart_toEndOf="@+id/dimageView2"
+        app:layout_constraintTop_toTopOf="@+id/dimageView2" />
+
+    <TextView
+        android:id="@+id/dtextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/intense"
+        app:layout_constraintStart_toStartOf="@+id/dimageView3"
+        app:layout_constraintTop_toBottomOf="@+id/dlocationTextView" />
+
+    <TextView
+        android:id="@+id/dtextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/intense"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dtextView5"
+        app:layout_constraintTop_toTopOf="@+id/dtextView5" />
+
+    <TextView
+        android:id="@+id/dintenseTextView"
+        android:layout_width="82dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/purple_500"
+        android:text="@string/intense_example"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/dtextView5"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView5" />
+
+    <TextView
+        android:id="@+id/dquakeValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/value_example"
+        android:textColor="#2B2B3D"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/dimageView4"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView6" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="24dp"
+        android:background="#2B2B3D33"
+        android:dashWidth="5dp"
+        android:dashGap="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/dtextView6"
+        app:layout_constraintTop_toTopOf="@+id/dtextView6" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="16dp"
+        android:background="#2B2B3D33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dintenseTextView" />
+
+    <ImageView
+        android:id="@+id/rec1ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/rec2ImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lineView"
+        app:srcCompat="@drawable/ic_rec1"
+        android:contentDescription="@string/recommendation_photo" />
+
+    <ImageView
+        android:id="@+id/rec2ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rec1ImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rec1ImageView"
+        app:layout_constraintTop_toTopOf="@+id/rec1ImageView"
+        app:srcCompat="@drawable/ic_rec2"
+        android:contentDescription="@string/recommendation_photo" />
+
+    <TextView
+        android:id="@+id/recTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/recommendation_head"
+        android:textColor="#2B2B3D"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <View
+        android:id="@+id/lineView"
+        android:layout_width="32dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="8dp"
+        android:background="#ED3237"
+        app:layout_constraintStart_toStartOf="@+id/recTextView"
+        app:layout_constraintTop_toBottomOf="@+id/recTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
